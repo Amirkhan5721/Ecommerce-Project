@@ -22,13 +22,13 @@ function App() {
     AOS.init({
       offset: 100,
       duration: 800,
-      easing: "ease-in-sine",
+      easing: "ease-in-sinee",
       delay: 100,
     });
     AOS.refresh();
   }, []);
 
-  
+
   return (
     <>
       <div
