@@ -1,10 +1,9 @@
 import React from 'react'
 import Slider from "react-slick";
 import img1 from "../../assets/testimonials/image1.jpg";
-import img2 from "../../assets/testimonials/image1.jpg";
-import img3 from "../../assets/testimonials/image1.jpg";
-import img4 from "../../assets/testimonials/image1.jpg";
-import img5 from "../../assets/testimonials/image1.jpg";
+import img2 from "../../assets/testimonials/image2.jpg";
+import img3 from "../../assets/testimonials/image3.jpg";
+import img4 from "../../assets/testimonials/image4.jpg";
 
 const testimonalsData = [
     {
@@ -39,14 +38,7 @@ const testimonalsData = [
         ex aliquid? Facilis, ullam voluptatum.`,
         img: img4,
     },
-    {
-        id: 5,
-        name: "Imran",
-        text: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Velit ea dolores quaerat tempore accusamus voluptate,
-        ex aliquid? Facilis, ullam voluptatum.`,
-        img: img5,
-    },
+    
 ]
 
 const Testimonals = () => {
