@@ -11,6 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "homepage": "https://amirkhan5721.github.io/Ecommerce-Project/",
   "dependencies": {
     "aos": "^2.3.4",
     "class-variance-authority": "^0.7.1",
@@ -42,6 +43,5 @@
     "tailwindcss": "^3.4.17",
     "vite": "^6.0.5",
     "vite-plugin-react": "^4.0.1"
-  },
-  "homepage": "https://amirkhan5721.github.io/Ecommerce-Project/"
+  }
 }

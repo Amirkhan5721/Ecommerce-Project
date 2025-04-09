@@ -1,8 +1,12 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Ecommerce-Project/', // Add this line with your repo name
+  base: '/Ecommerce-Project/',
+  build: {
+    outDir: 'build', // Make this match your gh-pages deploy directory
+    assetsDir: 'assets', // Ensure assets go to the correct folder
+    emptyOutDir: true // Cleans the directory before build
+  }
 })
